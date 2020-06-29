@@ -27,8 +27,8 @@ router.post('/savepost',function(req,res,next)
 
 router.get("/getuser/:userId/:newid",function(req,res,next)
 {
-  // console.log('this.reqparam->',req.params.newid)
-  // res.send(req.params.newid);
+    console.log('this.reqparam->',req.params.newid)
+   res.send(req.params.newid);
   // console.log();
 });
 
